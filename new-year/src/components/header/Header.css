@@ -12,3 +12,15 @@ h1 {
     font-size: 100px;
     text-align: center;
 }
+
+@media screen and (max-width: 480px) {
+    .header {
+        padding: 1px;
+        background-size: 1000px;
+    }
+
+    h1 {
+        font-size: 40px;
+        -webkit-text-stroke: 0px black;
+    }
+}

@@ -1,7 +1,7 @@
 import './Congradulation.css';
 import person from './person.jpg';
 import React, {useState} from 'react';
-import vid from './vid_test.mp4';
+import vid from './video.mp4';
 
 const Congradulation = () => {
     const [show, setShow] = useState(false);
