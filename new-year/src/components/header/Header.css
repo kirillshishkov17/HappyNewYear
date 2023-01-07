@@ -1,5 +1,5 @@
 .header {
-    background-image: url('./header-background.jpeg');
+    background-image: url('./background.jpeg');
     background-size: 100%;
     background-repeat: no-repeat;
     padding: 10px;
@@ -16,10 +16,12 @@ h1 {
 @media screen and (max-width: 480px) {
     .header {
         padding: 1px;
-        background-size: 1000px;
+        background-size: 400px;
     }
 
     h1 {
+        font-family: Arial;
+        color: rgb(255, 255, 255);
         font-size: 40px;
         -webkit-text-stroke: 0px black;
     }
